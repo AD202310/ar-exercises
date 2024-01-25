@@ -8,12 +8,12 @@ require_relative './exercise_5'
 puts "Exercise 6"
 puts "----------"
 
-# Inside the Store model (app/models/store.rb)
+# Inside the Store model 
 class Store < ActiveRecord::Base
   has_many :employees
 end
 
-# Inside the Employee model (app/models/employee.rb)
+# Inside the Employee model 
 class Employee < ActiveRecord::Base
   belongs_to :store
 end
