@@ -29,4 +29,3 @@ Store.create(
 
 # Output the number of stores
 puts "Number of stores: #{Store.count}"
-puts "Store IDs: #{Store.first.id}"
